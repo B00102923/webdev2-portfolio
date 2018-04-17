@@ -1,0 +1,104 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+Header{
+  padding: 1em;
+    color:black;
+    background-color:purple;
+    clear: left;
+    text-align: center;
+	font-family:"Garamond";
+}
+
+
+ footer {
+    padding: 1em;
+    color:black;
+    background-color:purple;
+    clear: left;
+    text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial," "sans-serif";
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  display:inline-block;
+}
+p{
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+body{
+	background-color:teal;
+}
+a:link {
+    color:skyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:lightpink;
+    background-color: transparent;
+    
+}
+a:active {
+    color: yellow;
+    background-color: hotpink;
+   }
+.photos{
+    column-count: 3; 
+    column-gap: 40px; 
+    column-rule: 4px double #ff00ff; 
+  }
+
+.photom{
+	border-radius:50%;
+}
+
+.column{
+	float:left;
+	width:33.33%;
+}
+
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+	
+}
+
+#contain{
+	background-color:teal;
+	margin: 3px 0px;
+}
+
+.colum{
+	float:left;
+	width:50%;
+	
+}
+
+.ro:after{
+	display:table;
+	clear:both;
+	content:"";
+}
+
+.para{
+	color:white;
+}
